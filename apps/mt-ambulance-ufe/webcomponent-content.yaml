@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: mt-ambulance-ufe-content
+spec:
+  microFrontend: mt-ambulance-ufe
+  element: mt-wac
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?mt-wac(/.*)?$"
