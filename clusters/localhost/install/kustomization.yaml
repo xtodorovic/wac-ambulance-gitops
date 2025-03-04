@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/mt-ambulance-ufe
+
+components:
+- ../../../components/version-developers
