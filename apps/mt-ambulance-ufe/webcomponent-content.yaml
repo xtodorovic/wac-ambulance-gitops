@@ -6,6 +6,10 @@ spec:
   microFrontend: mt-ambulance-ufe
   element: mt-ambulance-wl-app
   attributes:
+    - name: api-base
+      value: http://localhost:5555/api
+    - name: ambulance-id
+      value: bobulova
     - name: base-path
       value: /mt-wac/
   displayRules:
